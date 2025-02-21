@@ -1,25 +1,24 @@
 import {useNavigate} from "react-router-dom"
-//import Capa from "../../assets/Tela Login/imagem tela de login.png";
+
 import Logo from "../../assets/Tela Login/logo-ws.png";
 import styles from "./Login.module.scss"
 
 function Login() {
 
-const navigate = useNavigate() //Iniciando o hook useNavigate
+const navigate = useNavigate() 
 
 const irParaReembolsos = () => {
-  navigate("/reembolsos")  //Redirecionando para a página de reembolsos
-}
+  navigate("/reembolsos")  }
 
   return (
     <main className={styles.mainLogin}>
       <section className={styles.containerFoto}>
-        {/* <img src={Capa} alt="Foto de um navio cargueiro" /> */}
+        { <img src={capa} alt="../../assets/Tela de login/imagem tela de login.png" /> }
       </section>
 
       <section className={styles.formWapper}>
         <div className={styles.boxLogo}>
-          <img src={Logo} alt="/src/assets/Tela de login/logo-ws.png" />
+          <img src={Logo} alt="../../assets/Tela de login/logo-ws.png" />
           <h1>Boas vindas ao Novo Portal SISPAR </h1>
           <p>Sistema de Emissão de Boletos e Parcelamento</p>
         </div>

@@ -44,7 +44,7 @@ function NavBar() {
       </section>
 
       <button className={styles.buttonSair}  onClick={()=>{navigate("/")}}>
-        <img src={Sair} alt="/src/assets/Header/Botão - Sair.png" />
+        <img src={Sair} alt="../../assets/Header/Botão - Sair.png" />
       </button>
     </nav>
   );

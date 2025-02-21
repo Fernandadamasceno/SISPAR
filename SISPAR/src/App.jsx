@@ -3,6 +3,8 @@ import Login from "./components/login/Login.Jsx";
 import Reembolsos from "./components/reembolsos/Reembolsos";
 import Solicitacao from "./components/solicitacao/Solicitacao";
 
+<assets />
+
 function App() {
   return (
     <BrowserRouter>
